@@ -1,0 +1,70 @@
+body {
+    overflow-x: hidden; /* 가로 스크롤 숨김 */  
+}
+
+.Mycont2 {
+    position: relative;
+    height: 200px; /* 원하는 높이로 설정 */
+    
+}
+
+
+.MakeMypro {
+    position: relative;
+    width: 290px;
+    height: 366px;
+    left: 310px;
+    top: -220px;
+    background-color: white;
+}
+
+.Myproupload{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.Myprotext{
+    width: 100%;
+    height: 44%;
+    object-fit: contain;
+    margin-top: 50px;
+}
+
+.Myproline{
+    position: absolute;
+    width: 288px;
+    height: 0px; /* 높이를 추가해 보세요 */
+    left: 310px;
+    top: 410px; /* 적절한 위치 조정 */
+    border: 0.1px solid #D2D2D2;
+    object-fit: contain;
+}
+
+.Myproline2{
+    position: absolute;
+    width: 288px;
+    height: 0px; /* 높이를 추가해 보세요 */
+    left: 310px;
+    bottom: 150px; /* 적절한 위치 조정 */
+    border: 0.1px solid #D2D2D2;
+    object-fit: contain;
+}
+
+.Myprointro, .Textprointro{
+    position: relative;
+    bottom: 300px;
+    font-size: 12px;
+    left: 325px;
+    line-height: 0.3;
+}
+
+.Myprointro h3, .Textprointro h3{
+    font-size: 17px;
+}
+
+.startpropic, .startprotext{
+    text-decoration: none;
+    color: black;
+}

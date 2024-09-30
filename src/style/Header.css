@@ -1,0 +1,142 @@
+.Header{
+  background-color: #DCCAB5;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center; /* 수직 중앙 정렬 */
+  white-space: nowrap; /* 줄바꿈 방지 */
+  min-width: auto;
+}
+
+.RoomGenius{
+  font-size: 33px;
+  font-weight: 700;
+  color: white;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+  margin-left: 47px;
+}
+
+.auth-links {
+  display: flex;
+  gap: 130px; /* 링크 간의 간격 조정 */
+  margin-left: 1300px; /* 오른쪽으로 밀기 */
+  font-size: 17px;
+  z-index: 10; /* 큰 값으로 설정 */
+  position: relative; /* 또는 absolute/fixed */
+  right: 30px;
+}
+
+.auth-links a{
+  color: white; /* 글자색 */
+  text-decoration: none;
+}
+
+.hader-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 100px; /* 오른쪽으로 밀기 */
+  font-size: 17px;
+  z-index: 10; /* 큰 값으로 설정 */
+  position: relative; /* 또는 absolute/fixed */
+  right: 30px;
+  gap: 80px;
+  
+}
+
+.Roomchange-nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.Roomchange-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.Roomicon{
+  width: 54px;
+  height: 54px;
+  height: auto; 
+  max-width: 100%; 
+}
+
+.Roomprofile:hover .Roomicon {
+  display: none; 
+}
+
+.Roomicon:hover {
+  opacity: 1; 
+}
+
+
+.Room-menu, .Roomchange-nav{
+  position: relative;
+  left: 1070px;
+}
+
+.Room-dropdown {
+  position: relative;
+  width: 286px;
+  height: 296px;
+  top: 200px;
+  right: 200px;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: row;
+  display: flex;
+  gap: 30px;
+}
+
+.dropicon{
+  position: absolute;
+  width: 110px;
+  height: 110px; 
+  transform: translateX(80%) translateY(30%);
+}
+
+.Roomlogout, .Roomout, .dropline2{
+  position: relative;
+  cursor: pointer;
+  top: 260px;
+}
+
+.dropname{
+  font-size: 20px;
+  transform: translateX(190%) translateY(580%);
+}
+
+.Roomlogout{
+  position: absolute;
+  left: 36px;
+}
+
+.Roomout{
+  position: absolute;
+  left: 180px;
+}
+
+.Roomlogout, .Roomout{
+  position: absolute;
+  top: 250px;
+}
+
+.dropline2 {
+  position: absolute;
+  width: 65px;
+  height: 0px;
+  border: 0.1px solid #B8B3B3;
+  transform: translateX(160%) rotate(90deg); /* 중앙 정렬 */
+}
+
+.dropline{
+  position: absolute;
+  width: 284px;
+  height: 0px;
+  top: 224px;
+  left: 0px;
+  border: 0.1px solid #B8B3B3;
+}
+

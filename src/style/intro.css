@@ -1,0 +1,49 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.introContainer{
+    background-image: url('/src/assets/이미지/ss.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: 100%; /* 높이를 늘려서 이미지를 늘림 */
+    background-position: center; /* 위에서 10px 아래로 이동 */
+    display: flex; /* Flexbox 사용 */
+    flex-direction: column; /* 세로 방향 정렬 */
+    justify-content: flex-start; /* 위쪽 정렬 */
+    align-items: flex-end; /* 오른쪽 정렬 */
+}
+
+.introRoom, .introinner{
+    position: relative;
+   color: white;
+   text-align: right;
+   margin-right: 250px;
+   top: -92px;
+}
+
+.introRoom{
+    font-size: 100px;
+    left: 3px;
+    
+}
+
+.introinner{
+    font-size: 40px;
+    top:-160px;
+    right:38px;
+    font-weight: 600;
+    font-family: 'Inter';
+}
+
+.contour {
+    position: absolute;
+    width: 5px;
+    height: 130px;
+    left: 1660px;
+    top: 513px;
+
+    background: #FFFFFF;
+}
+

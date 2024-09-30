@@ -1,0 +1,55 @@
+
+.title2BE{
+    position: absolute;
+width: auto;
+height: auto;
+left: 110px;
+top: 1782px;
+display: flex;
+align-items: center;
+gap: 70px;
+}
+
+.title2Before, .title2After{
+    color: white;
+    
+}
+
+.title2Before{
+    position: relative;
+    left: 100px;
+}
+
+.title2AF{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 630px;
+    top: 2225px;
+    display: flex;
+    align-items: center;
+}
+
+.title2After h3, .title2Before h3{
+    font-size: 35px;
+}
+
+.title2After{
+    position: relative;
+    right:400px;
+}
+
+.title2After p, .title2Before p{
+font-size: 27px;
+
+}
+
+.title2, .titledown2{
+    width:525px;
+    height: 377px;
+}
+
+.titledown2{
+    position: relative;
+    right:120px;
+}

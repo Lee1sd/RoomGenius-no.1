@@ -1,0 +1,40 @@
+.titlecont{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.titlecont h3{
+    font-size: 70px;
+}
+
+
+.titlepic{
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    left: 0px;
+    top: 1200px;
+    background: #FFFFFF;
+    margin-top: 60px;
+}
+
+.titlepic img{
+    height: 358px;
+    margin-left: 70px;
+    margin-top: 56px;
+    
+}
+
+.intro1{
+    width: 800px;
+}
+.intro2{
+    width: 400px;
+
+}
+
+.intro3{
+    width: 351px
+}
+
